@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5
+CMAKE_SOURCE_DIR = /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build
+CMAKE_BINARY_DIR = /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build
 
 # Utility rule file for createImage.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build
 include CMakeFiles/createImage.dir/progress.make
 
 CMakeFiles/createImage: node_manager
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "create image"
-	cp node_manager node_manager_v1.0.0_b1dd5e5_210517234909
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "create image"
+	cp node_manager node_manager_v1.0.0_845c4e8_210517235810
 
 createImage: CMakeFiles/createImage
 createImage: CMakeFiles/createImage.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/createImage.dir/clean:
 .PHONY : CMakeFiles/createImage.dir/clean
 
 CMakeFiles/createImage.dir/depend:
-	cd /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5 /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5 /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles/createImage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5 /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5 /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles/createImage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/createImage.dir/depend
 

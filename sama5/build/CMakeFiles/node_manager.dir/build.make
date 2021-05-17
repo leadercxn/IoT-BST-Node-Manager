@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5
+CMAKE_SOURCE_DIR = /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build
+CMAKE_BINARY_DIR = /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/node_manager.dir/depend.make
@@ -57,93 +57,93 @@ include CMakeFiles/node_manager.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/node_manager.dir/flags.make
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o: CMakeFiles/node_manager.dir/flags.make
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o: /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o"
-	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o   -c /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o: CMakeFiles/node_manager.dir/flags.make
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o: /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o"
+	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o   -c /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.i"
-	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c > CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.i
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.i"
+	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c > CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.i
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.s"
-	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.s
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.s"
+	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.s
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o.requires:
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o.requires:
 
-.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o.requires
+.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o.requires
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o.provides: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o.requires
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o.provides.build
-.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o.provides
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o.provides: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o.requires
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o.provides.build
+.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o.provides
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o.provides.build: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o
-
-
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o: CMakeFiles/node_manager.dir/flags.make
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o: /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o"
-	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o   -c /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c
-
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.i"
-	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c > CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.i
-
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.s"
-	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.s
-
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o.requires:
-
-.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o.requires
-
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o.provides: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o.requires
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o.provides.build
-.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o.provides
-
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o.provides.build: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o.provides.build: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o
 
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o: CMakeFiles/node_manager.dir/flags.make
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o: /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o"
-	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o   -c /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o: CMakeFiles/node_manager.dir/flags.make
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o: /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o"
+	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o   -c /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.i"
-	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c > CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.i
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.i"
+	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c > CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.i
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.s"
-	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.s
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.s"
+	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.s
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o.requires:
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o.requires:
 
-.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o.requires
+.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o.requires
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o.provides: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o.requires
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o.provides.build
-.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o.provides
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o.provides: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o.requires
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o.provides.build
+.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o.provides
 
-CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o.provides.build: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o.provides.build: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o
+
+
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o: CMakeFiles/node_manager.dir/flags.make
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o: /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o"
+	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o   -c /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c
+
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.i"
+	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c > CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.i
+
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.s"
+	arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c -o CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.s
+
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o.requires:
+
+.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o.requires
+
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o.provides: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o.requires
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o.provides.build
+.PHONY : CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o.provides
+
+CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o.provides.build: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o
 
 
 # Object files for target node_manager
 node_manager_OBJECTS = \
-"CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o" \
-"CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o" \
-"CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o"
+"CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o" \
+"CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o" \
+"CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o"
 
 # External object files for target node_manager
 node_manager_EXTERNAL_OBJECTS =
 
-node_manager: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o
-node_manager: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o
-node_manager: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o
+node_manager: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o
+node_manager: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o
+node_manager: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o
 node_manager: CMakeFiles/node_manager.dir/build.make
 node_manager: CMakeFiles/node_manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable node_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable node_manager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/node_manager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -151,9 +151,9 @@ CMakeFiles/node_manager.dir/build: node_manager
 
 .PHONY : CMakeFiles/node_manager.dir/build
 
-CMakeFiles/node_manager.dir/requires: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o.requires
-CMakeFiles/node_manager.dir/requires: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o.requires
-CMakeFiles/node_manager.dir/requires: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o.requires
+CMakeFiles/node_manager.dir/requires: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o.requires
+CMakeFiles/node_manager.dir/requires: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o.requires
+CMakeFiles/node_manager.dir/requires: CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o.requires
 
 .PHONY : CMakeFiles/node_manager.dir/requires
 
@@ -162,6 +162,6 @@ CMakeFiles/node_manager.dir/clean:
 .PHONY : CMakeFiles/node_manager.dir/clean
 
 CMakeFiles/node_manager.dir/depend:
-	cd /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5 /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5 /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles/node_manager.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5 /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5 /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles/node_manager.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/node_manager.dir/depend
 

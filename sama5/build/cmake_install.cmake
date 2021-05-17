@@ -1,4 +1,4 @@
-# Install script for directory: /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5
+# Install script for directory: /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

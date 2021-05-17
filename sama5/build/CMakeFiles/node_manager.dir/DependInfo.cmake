@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c" "/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o"
-  "/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c" "/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o"
-  "/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c" "/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o"
+  "/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c" "/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o"
+  "/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c" "/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o"
+  "/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c" "/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "VERSION_STRING=\"1.0.0_b1dd5e5_210517234909\""
+  "VERSION_STRING=\"1.0.0_845c4e8_210517235810\""
   )
 
 # The include file search paths:

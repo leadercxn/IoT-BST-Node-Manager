@@ -8,7 +8,7 @@
 
 ../../inc/node_manager.h
 
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c
 stdio.h
 -
 stdlib.h
@@ -28,11 +28,11 @@ sys/file.h
 errno.h
 -
 util.h
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.h
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.h
 
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.h
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.h
 
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c
 stdio.h
 -
 stdlib.h
@@ -44,13 +44,13 @@ stdbool.h
 string.h
 -
 util.h
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.h
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.h
 util_shell.h
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.h
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.h
 
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.h
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.h
 
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c
 stdint.h
 -
 stdbool.h
@@ -92,5 +92,5 @@ fcntl.h
 sys/ioctl.h
 -
 node_manager.h
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.h
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.h
 

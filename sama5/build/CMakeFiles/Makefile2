@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5
+CMAKE_SOURCE_DIR = /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build
+CMAKE_BINARY_DIR = /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/createImage.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build
 CMakeFiles/createImage.dir/all: CMakeFiles/node_manager.dir/all
 	$(MAKE) -f CMakeFiles/createImage.dir/build.make CMakeFiles/createImage.dir/depend
 	$(MAKE) -f CMakeFiles/createImage.dir/build.make CMakeFiles/createImage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles --progress-num=1 "Built target createImage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles --progress-num=1 "Built target createImage"
 .PHONY : CMakeFiles/createImage.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/createImage.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/createImage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/createImage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles 0
 .PHONY : CMakeFiles/createImage.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/createImage.dir/clean
 CMakeFiles/node_manager.dir/all:
 	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/depend
 	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles --progress-num=2,3,4,5 "Built target node_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles --progress-num=2,3,4,5 "Built target node_manager"
 .PHONY : CMakeFiles/node_manager.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/node_manager.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/node_manager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/node_manager.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles 0
 .PHONY : CMakeFiles/node_manager.dir/rule
 
 # Convenience name for target.

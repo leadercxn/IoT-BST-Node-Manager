@@ -1,4 +1,4 @@
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles/edit_cache.dir
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles/rebuild_cache.dir
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles/createImage.dir
-/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles/node_manager.dir
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles/edit_cache.dir
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles/rebuild_cache.dir
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles/createImage.dir
+/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles/node_manager.dir

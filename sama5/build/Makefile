@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5
+CMAKE_SOURCE_DIR = /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build
+CMAKE_BINARY_DIR = /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sama5/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sama5/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -136,86 +136,86 @@ node_manager/fast:
 	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/build
 .PHONY : node_manager/fast
 
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.o: media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.o: media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o
 
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.o
-
-# target to build an object file
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o:
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.o
-
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.i: media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.i
-
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.i
-
-# target to preprocess a source file
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.i:
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.i
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.i
-
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.s: media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.s
-
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.s
-
-# target to generate assembly for a file
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.s:
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.s
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.c.s
-
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.o: media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o
-
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.o
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.o
 
 # target to build an object file
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o:
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.o
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o:
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.o
 
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.i: media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.i
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.i: media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.i
 
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.i
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.i
 
 # target to preprocess a source file
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.i:
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.i
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.i
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.i:
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.i
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.i
 
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.s: media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.s
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.s: media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.s
 
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.s
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.s
 
 # target to generate assembly for a file
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.s:
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.s
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.c.s
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.s:
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.s
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.c.s
 
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.o: media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.o: media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o
 
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.o
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.o
 
 # target to build an object file
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o:
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.o
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o:
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.o
 
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.i: media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.i
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.i: media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.i
 
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.i
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.i
 
 # target to preprocess a source file
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.i:
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.i
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.i
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.i:
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.i
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.i
 
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.s: media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.s
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.s: media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.s
 
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.s
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.s
 
 # target to generate assembly for a file
-media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.s:
-	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.s
-.PHONY : media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.c.s
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.s:
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.s
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.c.s
+
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.o: media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o
+
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.o
+
+# target to build an object file
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o:
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.o
+
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.i: media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.i
+
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.i
+
+# target to preprocess a source file
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.i:
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.i
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.i
+
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.s: media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.s
+
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.s
+
+# target to generate assembly for a file
+media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.s:
+	$(MAKE) -f CMakeFiles/node_manager.dir/build.make CMakeFiles/node_manager.dir/media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.s
+.PHONY : media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.c.s
 
 # Help Target
 help:
@@ -227,15 +227,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... createImage"
 	@echo "... node_manager"
-	@echo "... media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.o"
-	@echo "... media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.i"
-	@echo "... media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util.s"
-	@echo "... media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.o"
-	@echo "... media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.i"
-	@echo "... media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/sdk_linux_app/util/util_shell.s"
-	@echo "... media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.o"
-	@echo "... media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.i"
-	@echo "... media/psf/sensoro/code/git_hub/IOT_BST_DEVMAN/src/node_manager.s"
+	@echo "... media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.o"
+	@echo "... media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.i"
+	@echo "... media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util.s"
+	@echo "... media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.o"
+	@echo "... media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.i"
+	@echo "... media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/sdk_linux_app/util/util_shell.s"
+	@echo "... media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.o"
+	@echo "... media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.i"
+	@echo "... media/psf/sensoro/code/git_hub/IoT-BST-Node-Manager/src/node_manager.s"
 .PHONY : help
 
 
