@@ -10,9 +10,6 @@ execute_process(COMMAND cat ${PROJECT_SOURCE_DIR}/../VERSION
 
 execute_process(COMMAND sh -c "git rev-parse --short HEAD | tr -d '\n'"
                 OUTPUT_VARIABLE GIT_BRANCH)
-#execute_process(COMMAND git rev-parse --short HEAD
-#                COMMAND tr -d '\n'
-#                OUTPUT_VARIABLE GIT_BRANCH)
 
 string(TIMESTAMP TIME %y%m%d%H%M%S)
 set(VERSION ${VERSION}_${GIT_BRANCH}_${TIME})
@@ -27,9 +24,10 @@ include (buildEnv.cmake)
 set(SDK_LINUX_APP_DIR "${PROJECT_SOURCE_DIR}/../sdk_linux_app")
 set(LIB_DIR "${PROJECT_SOURCE_DIR}/../libs/sama5")
 
-aux_source_directory(${PROJECT_SOURCE_DIR}/../src SRC_DIR)
-aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_DIR)
-aux_source_directory(${SDK_LINUX_APP_DIR}/util SRC_DIR)
+aux_source_directory(${PROJECT_SOURCE_DIR}/../src   SRC_DIR)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src      SRC_DIR)
+aux_source_directory(${SDK_LINUX_APP_DIR}/util      SRC_DIR)
+aux_source_directory(${SDK_LINUX_APP_DIR}/list/src  SRC_DIR)
 
 set(SRC_FILES
     ${SRC_DIR}
@@ -42,6 +40,8 @@ include_directories(
     ${LIB_DIR}/zlog/include
 #    ${SDK_LINUX_APP_DIR}/parson
     ${SDK_LINUX_APP_DIR}/util
+    ${SDK_LINUX_APP_DIR}/list/src
+    ${SDK_LINUX_APP_DIR}/queue
 )
 
 set(LDFLAGS "-L${LIB_DIR}/zlog")

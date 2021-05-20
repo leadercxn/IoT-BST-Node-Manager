@@ -99,6 +99,8 @@ extern "C"
 #define UNUSED_PARAMETER(X) UNUSED_VARIABLE(X)
 #define UNUSED_RETURN_VALUE(X) UNUSED_VARIABLE(X)
 
+#define ARRAY_SIZE(array)   ((sizeof(array) / sizeof((array)[0])))
+
 /**@brief Macro for performing rounded integer division (as opposed to truncating the result).
  *
  * @param[in]   A   Numerator.

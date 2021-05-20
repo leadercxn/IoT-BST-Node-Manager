@@ -4,7 +4,7 @@
 ### Step 1: Clean the CMake cache file
 ```
 cd build
-rm -fr *
+rm -rf *
 ```
 ### Step 2: Regenerate the Makefile
 ```

@@ -2,7 +2,10 @@
 # set(CROSS_PATH /opt/gcc-linaro-arm-linux-gnueabihf-4.9-2014.07_linux)
 
 # Name of C compiler.
+
 set(CMAKE_C_COMPILER "arm-linux-gnueabihf-gcc")
+#set(CMAKE_C_COMPILER "gcc")
+
 # set(CMAKE_C_COMPILER "${CROSS_PATH}/bin/arm-linux-gnueabihf-gcc")
 # set(CMAKE_CXX_COMPILER "${CROSS_PATH}/bin/arm-linux-gnueabihf-g++")
 
